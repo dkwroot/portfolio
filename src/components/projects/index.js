@@ -25,8 +25,8 @@ const Projects = () => {
     return (
       <div key={`proj_${index}`}>
         <div className="card__info text-white mt-3 d-flex">
-          <div className="card__project-name">{proj.NAME}</div>
-          <div className="text-right w-100">{dependencyList}</div>
+          <div className="card__project-name mr-auto">{proj.NAME}</div>
+          <div className="">{dependencyList}</div>
         </div>
         <div key={`proj_${index}`} className="card">
           <a href={proj.GIT}>
