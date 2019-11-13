@@ -3,42 +3,52 @@ import ToolWorld from "./resources/tool_world.png";
 import GraphicsProduct from "./resources/graphics_product.png";
 
 const paintApp = {
-  NAME: "PaintApp",
+  NAME: "Social Media Website",
   IMG: PaintApp,
-  GIT: "https://github.com/dkwroot/painting-app",
-  DEMO: "https://csb-6ntnx.netlify.com/",
-  TECH: [["fab", "react"], ["fab", "js"]],
-  DESCIPTION: "words here..."
+  GIT: "https://github.com/dkwroot/yakker",
+  DEMO: "https://dkwroot-yakker.glitch.me/",
+  TECH: [
+    ["fab", "react"],
+    ["fab", "bootstrap"],
+    ["fab", "node-js"],
+    ["fab", "js"]
+  ],
+  DESCIPTION:
+    "A social media website titled, Yakker. It allows a user to create a profile and to post on their own message wall."
 };
 
 const productApp = {
-  NAME: "ToolWorld",
+  NAME: "Merchant Website",
   IMG: ToolWorld,
   GIT: "https://github.com/dkwroot/tool-world",
-  DEMO: "https://tool-world.herokuapp.com",
+  DEMO: "https://dkwroot-tool-world.glitch.me/",
   TECH: [
     ["fab", "react"],
     ["fab", "bootstrap"],
     ["fab", "node-js"],
     ["fab", "js"]
   ],
-  DESCIPTION: "words here..."
+  DESCIPTION:
+    "A tool sale website. It allows users to browse the inventory and add desired tools to their shopping cart."
 };
 
 const drawSite = {
-  NAME: "3Draw",
+  NAME: "Landing Page",
   IMG: GraphicsProduct,
-  GIT: "https://github.com/dkwroot/3Raw-page/tree/master/",
-  DEMO: "https://csb-g05be-jo41y1dt6.now.sh",
+  GIT: "https://github.com/dkwroot/3Raw",
+  DEMO: "https://dkwroot.github.io/3Draw/",
   TECH: [
     ["fab", "react"],
     ["fab", "bootstrap"],
     ["fab", "node-js"],
     ["fab", "js"]
   ],
-  DESCIPTION: "words here..."
+  DESCIPTION:
+    "A stylist landing page for a drawing program called 3Draw. It demonstrates design and animation."
 };
 
 const myProjects = [paintApp, productApp, drawSite];
+
+//https://csb-6ntnx.netlify.com/
 
 export default myProjects;
