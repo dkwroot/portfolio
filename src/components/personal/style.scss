@@ -1,0 +1,30 @@
+.personal{
+  transform: translateY(0%);
+  transition: transform 2s;
+
+  height: 100%;
+  color: white;
+  padding: 10px;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/9bf5a9bd-541f-471d-bbc2-96b4e4ddf464/-SkZ-wood_texture.jpg");
+
+  .personal__body{
+    background-image:url("https://uploads.codesandbox.io/uploads/user/9bf5a9bd-541f-471d-bbc2-96b4e4ddf464/7qlT-blackboard_texture.jpg");
+  }
+  
+  .info-card{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .tech-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .chalk-text{
+    font-family: 'Fredericka the Great', cursive;
+    color: lightgreen;
+  }
+}
