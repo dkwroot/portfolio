@@ -33,10 +33,10 @@ const productApp = {
 };
 
 const drawSite = {
-  NAME: "Landing Page",
+  NAME: "Product Website",
   IMG: GraphicsProduct,
   GIT: "https://github.com/dkwroot/3Raw",
-  DEMO: "https://dkwroot.github.io/3Draw/",
+  DEMO: "https://dkwroot.github.io/3Raw/",
   TECH: [
     ["fab", "react"],
     ["fab", "bootstrap"],
