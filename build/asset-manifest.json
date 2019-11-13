@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.586f013a.chunk.css",
+    "main.js": "/static/js/main.375c030b.chunk.js",
+    "main.js.map": "/static/js/main.375c030b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.5c5f4c00.chunk.css": "/static/css/2.5c5f4c00.chunk.css",
+    "static/js/2.8b36b060.chunk.js": "/static/js/2.8b36b060.chunk.js",
+    "static/js/2.8b36b060.chunk.js.map": "/static/js/2.8b36b060.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3ff8df9909e21db3290ef0be9426c24d.js": "/precache-manifest.3ff8df9909e21db3290ef0be9426c24d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5c5f4c00.chunk.css.map": "/static/css/2.5c5f4c00.chunk.css.map",
+    "static/css/main.586f013a.chunk.css.map": "/static/css/main.586f013a.chunk.css.map",
+    "static/media/graphics_product.png": "/static/media/graphics_product.914b625f.png",
+    "static/media/paintApp.png": "/static/media/paintApp.b9ea0a90.png",
+    "static/media/tool_world.png": "/static/media/tool_world.9ee4db37.png"
+  }
+}
