@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "license": "UNLICENSED",
+  "homepage": "https://dkwroot.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.20",
     "@fortawesome/free-brands-svg-icons": "5.10.0",
