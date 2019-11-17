@@ -2,11 +2,11 @@ import PaintApp from "./resources/paintApp.png";
 import ToolWorld from "./resources/tool_world.png";
 import GraphicsProduct from "./resources/graphics_product.png";
 
-const paintApp = {
+const socialMediaApp = {
   NAME: "Social Media Website",
   IMG: PaintApp,
   GIT: "https://github.com/dkwroot/yakker",
-  DEMO: "https://dkwroot-yakker.glitch.me/",
+  DEMO: "https://yakkers.herokuapp.com/",
   TECH: [
     ["fab", "react"],
     ["fab", "bootstrap"],
@@ -17,11 +17,11 @@ const paintApp = {
     "A social media website titled, Yakker. It allows a user to create a profile and to post on their own message wall."
 };
 
-const productApp = {
+const merchantApp = {
   NAME: "Merchant Website",
   IMG: ToolWorld,
   GIT: "https://github.com/dkwroot/tool-world",
-  DEMO: "https://dkwroot-tool-world.glitch.me/",
+  DEMO: "https://tool-world.herokuapp.com/",
   TECH: [
     ["fab", "react"],
     ["fab", "bootstrap"],
@@ -32,7 +32,7 @@ const productApp = {
     "A tool sale website. It allows users to browse the inventory and add desired tools to their shopping cart."
 };
 
-const drawSite = {
+const productPage = {
   NAME: "Product Website",
   IMG: GraphicsProduct,
   GIT: "https://github.com/dkwroot/3Raw",
@@ -47,7 +47,7 @@ const drawSite = {
     "A stylist landing page for a drawing program called 3Draw. It demonstrates design and animation."
 };
 
-const myProjects = [paintApp, productApp, drawSite];
+const myProjects = [socialMediaApp, merchantApp, productPage];
 
 //https://csb-6ntnx.netlify.com/
 
