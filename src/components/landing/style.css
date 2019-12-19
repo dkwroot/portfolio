@@ -1,0 +1,102 @@
+.logo {
+  min-height: 500px;
+  height: 100vh;
+  min-width: 320px;
+  width: 100%;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-content: center;
+  background: black
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+}
+
+.logo__position {
+  height: 100%;
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
+
+.logo__main {
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__image {
+  min-width: 1250px;
+  min-height: 1250px;
+  width: 130vh;
+}
+
+.logo__namebox {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.logo__glow {
+  background: radial-gradient(
+    circle at 50%,
+    teal 0%,
+    transparent 40%,
+    transparent 100%
+  );
+  z-index: 2;
+}
+
+.logo__cloud {
+  background: url(../../resources/logo_cloud1.svg) center center no-repeat;
+  background-size: contain;
+  z-index: 2;
+  animation: planetAnim 40s linear infinite;
+}
+
+@keyframes planetAnim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes titleName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+.logo__twinkling {
+  /* background: green; */
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    top center;
+  z-index: 1;
+
+  -moz-animation: move-twink-back 200s linear infinite;
+  -ms-animation: move-twink-back 200s linear infinite;
+  -o-animation: move-twink-back 200s linear infinite;
+  -webkit-animation: move-twink-back 200s linear infinite;
+  animation: move-twink-back 200s linear infinite;
+}

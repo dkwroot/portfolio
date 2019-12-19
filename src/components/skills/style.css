@@ -1,0 +1,40 @@
+.skill__container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__box:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 0.5rem #0ff, -2px -2px 0.5rem #0ff;
+}
+
+.skill__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__section {
+  width: "100%";
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  min-width: 250px;
+}
+
+.skill__card {
+  max-width: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__icon {
+  height: 100%;
+  width: 100%;
+}

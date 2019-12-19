@@ -1,0 +1,23 @@
+.contact__container {
+  /* max-width: 1000px; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact__form-container {
+  min-width: 300px;
+  max-width: 600px;
+  color: white;
+}
+
+.contact__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  /* min-width: 300px; */
+  max-width: 600px;
+}

@@ -1,60 +1,68 @@
 import React from "react";
-import myProjects from "../../data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import "./style.scss";
+import projectData from "./data";
 
-const Projects = () => {
-  let projects = myProjects.map((proj, index) => {
-    const imgStyle = {
-      gridColumn: "2/3",
-      gridRow: "1/3",
-      backgroundImage: `url(${proj.IMG})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center"
-    };
+import "./style.css";
 
-    const dependencyList = proj.TECH.map((tech, techID) => {
-      return (
-        <span className="mx-1" key={`tech_${techID}`}>
-          <FontAwesomeIcon className="text-white" icon={tech} />
-        </span>
-      );
-    });
+const Projects = props => {
+  const flipCard = (card, enter) => {
+    if (enter) {
+      document.getElementById(card).className =
+        "proj__card-area proj__card--flipped";
+    } else {
+      document.getElementById(card).className = "proj__card-area";
+    }
+  };
 
+  const buildProjects = projectData.map((proj, id) => {
     return (
-      <div key={`proj_${index}`}>
-        <div className="card__info text-white mt-3 d-flex">
-          <div className="card__project-name mr-auto">{proj.NAME}</div>
-          <div className="">{dependencyList}</div>
-        </div>
-        <div key={`proj_${index}`} className="card">
-          <a href={proj.GIT}>
-            <FontAwesomeIcon
-              className="text-white h-100 w-100"
-              icon={["fab", "github"]}
-            />
-          </a>
-          <a href={proj.DEMO}>
-            <FontAwesomeIcon
-              className="text-white h-100 w-100"
-              icon={"globe"}
-            />
-          </a>
-          <div style={imgStyle} />
+      <div
+        key={`proj_${id}`}
+        className="m-2 proj__card-container"
+        onMouseEnter={() => {
+          flipCard(`projID_${id}`, true);
+        }}
+        onMouseLeave={() => {
+          flipCard(`projID_${id}`, false);
+        }}
+      >
+        <div id={`projID_${id}`} className="proj__card-area">
+          <div
+            className={`proj__${proj.image} proj__cards proj__card--front`}
+          />
+
+          <div className="bg-light proj__cards proj__card--back p-1">
+            <h6 className="text-right ">Title:</h6>
+            <p className="ml-1">{proj.title}</p>
+            <h6 className="text-right">Tech:</h6>
+            <p className="ml-1 text-break">{proj.tech.join(`, `)}</p>
+            <h6 className="text-right">Info:</h6>
+            <p className="ml-1 text-break">{proj.info}</p>
+            <div className="proj__button-container">
+              <a href={proj.git} className="proj__button">
+                GITHUB
+              </a>
+              <a href={proj.url} className="proj__button">
+                DEMO
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     );
   });
+
   return (
-    <div className="projects">
-      <div className="projects__body p-2">
-        <div style={{ fontSize: "2rem", display: "flex" }}>
-          <div className="card__title-line" />
-          <div className="card__project-title">MY PROJECTS</div>
-          <div className="card__title-line" />
-        </div>
-        {projects}
+    <div id="PROJECTS" className="section-75">
+      <h1 className="d-flex justify-content-center m-4">MY PROJECTS</h1>
+      <hr />
+      <div
+        className="d-flex flex-wrap justify-content-center"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1100"
+      >
+        {buildProjects}
       </div>
     </div>
   );
