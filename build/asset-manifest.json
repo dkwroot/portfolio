@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba3fce9a.chunk.css",
-    "main.js": "/static/js/main.860f141e.chunk.js",
-    "main.js.map": "/static/js/main.860f141e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c5682830.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c5682830.js.map",
-    "static/css/2.7abef457.chunk.css": "/static/css/2.7abef457.chunk.css",
-    "static/js/2.6b9084cf.chunk.js": "/static/js/2.6b9084cf.chunk.js",
-    "static/js/2.6b9084cf.chunk.js.map": "/static/js/2.6b9084cf.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.db0f85f4c0d2287f75da0bda3f64d505.js": "/precache-manifest.db0f85f4c0d2287f75da0bda3f64d505.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.ba3fce9a.chunk.css.map": "/static/css/main.ba3fce9a.chunk.css.map",
-    "static/media/style.css": "/static/media/yakker.ff8be159.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.c5682830.js",
-    "static/css/2.7abef457.chunk.css",
-    "static/js/2.6b9084cf.chunk.js",
-    "static/css/main.ba3fce9a.chunk.css",
-    "static/js/main.860f141e.chunk.js"
-  ]
+    "main.css": "/portfolio/static/css/main.b049cdd4.chunk.css",
+    "main.js": "/portfolio/static/js/main.2b495c13.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b495c13.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/css/2.7abef457.chunk.css": "/portfolio/static/css/2.7abef457.chunk.css",
+    "static/js/2.aacf7bf4.chunk.js": "/portfolio/static/js/2.aacf7bf4.chunk.js",
+    "static/js/2.aacf7bf4.chunk.js.map": "/portfolio/static/js/2.aacf7bf4.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.db82e270277dd6f16ddd49e5275f3498.js": "/portfolio/precache-manifest.db82e270277dd6f16ddd49e5275f3498.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "/portfolio/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.b049cdd4.chunk.css.map": "/portfolio/static/css/main.b049cdd4.chunk.css.map",
+    "static/media/style.css": "/portfolio/static/media/yakker.ff8be159.jpg"
+  }
 }
