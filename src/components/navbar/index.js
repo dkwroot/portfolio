@@ -37,7 +37,9 @@ const Navigator = props => {
           </a>
         </div>
         <div className="mx-2 text-white">
-          <a href="#CONTACT">Resume</a>
+          <a href="https://github.com/dkwroot/portfolio/raw/master/src/resources/DEREK_ROOT_RESUME.pdf">
+            Resume
+          </a>
         </div>
       </Navbar.Collapse>
     </Navbar>
