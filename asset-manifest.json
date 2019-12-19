@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.586f013a.chunk.css",
-    "main.js": "/portfolio/static/js/main.9b5edd82.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9b5edd82.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b049cdd4.chunk.css",
+    "main.js": "/portfolio/static/js/main.2b495c13.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b495c13.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/css/2.5c5f4c00.chunk.css": "/portfolio/static/css/2.5c5f4c00.chunk.css",
-    "static/js/2.8b36b060.chunk.js": "/portfolio/static/js/2.8b36b060.chunk.js",
-    "static/js/2.8b36b060.chunk.js.map": "/portfolio/static/js/2.8b36b060.chunk.js.map",
+    "static/css/2.7abef457.chunk.css": "/portfolio/static/css/2.7abef457.chunk.css",
+    "static/js/2.aacf7bf4.chunk.js": "/portfolio/static/js/2.aacf7bf4.chunk.js",
+    "static/js/2.aacf7bf4.chunk.js.map": "/portfolio/static/js/2.aacf7bf4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8561a259405d393b67882cdc7f563d19.js": "/portfolio/precache-manifest.8561a259405d393b67882cdc7f563d19.js",
+    "precache-manifest.db82e270277dd6f16ddd49e5275f3498.js": "/portfolio/precache-manifest.db82e270277dd6f16ddd49e5275f3498.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.5c5f4c00.chunk.css.map": "/portfolio/static/css/2.5c5f4c00.chunk.css.map",
-    "static/css/main.586f013a.chunk.css.map": "/portfolio/static/css/main.586f013a.chunk.css.map",
-    "static/media/graphics_product.png": "/portfolio/static/media/graphics_product.914b625f.png",
-    "static/media/paintApp.png": "/portfolio/static/media/paintApp.b9ea0a90.png",
-    "static/media/tool_world.png": "/portfolio/static/media/tool_world.9ee4db37.png"
+    "static/css/2.7abef457.chunk.css.map": "/portfolio/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.b049cdd4.chunk.css.map": "/portfolio/static/css/main.b049cdd4.chunk.css.map",
+    "static/media/style.css": "/portfolio/static/media/yakker.ff8be159.jpg"
   }
 }
