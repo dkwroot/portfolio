@@ -53,12 +53,12 @@
   z-index: 2;
 }
 
-.logo__cloud {
+/* .logo__cloud {
   background: url(../../resources/logo_cloud1.svg) center center no-repeat;
   background-size: contain;
   z-index: 2;
   animation: planetAnim 40s linear infinite;
-}
+} */
 
 @keyframes planetAnim {
   0% {

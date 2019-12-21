@@ -32,7 +32,7 @@ const SKILLS = props => {
           className="mb-5 mx-5"
           data-aos="flip-left"
           data-aos-easing="linear"
-          data-aos-duration="500"
+          data-aos-duration="1000"
         >
           <h4 className="text-center">Languages</h4>
           <div className="skill__section">{buildSkill(0)}</div>
@@ -52,7 +52,7 @@ const SKILLS = props => {
           className="mb-5 mx-5"
           data-aos="flip-left"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
         >
           <h4 className="text-center">Front-end</h4>
           <div className="skill__section">{buildSkill(2)}</div>
@@ -62,7 +62,7 @@ const SKILLS = props => {
           className="mb-5 mx-5"
           data-aos="flip-left"
           data-aos-easing="linear"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <h4 className="text-center">Tools</h4>
           <div className="skill__section">{buildSkill(3)}</div>
