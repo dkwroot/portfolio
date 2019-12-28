@@ -24,9 +24,7 @@ const Contact = props => {
     });
 
     if (response.ok) {
-      // let resp = await response.json();
       setShow(true);
-      // console.log("OKAY");
     }
   };
 
