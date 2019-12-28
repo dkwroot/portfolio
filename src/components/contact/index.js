@@ -10,6 +10,7 @@ const Contact = props => {
   const handleClose = () => setShow(false);
 
   const handleSubmit = async e => {
+    e.preventDefault();
     const response = await fetch("https://dkwroot-portfolio.glitch.me", {
       method: "POST",
       headers: {
@@ -25,6 +26,7 @@ const Contact = props => {
     if (response.ok) {
       // let resp = await response.json();
       setShow(true);
+      // console.log("OKAY");
     }
   };
 
