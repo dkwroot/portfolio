@@ -26,11 +26,11 @@ const Landing = props => {
     <div id="TOP" className="logo">
       <div className="logo__position logo__twinkling" />
       <div className="logo__position logo__glow" />
+      {buildLogo}
       <div className="logo__position logo__namebox">
         <h3 className="">Derek Root</h3>
         <h3 className="">Software Engineer</h3>
       </div>
-      {buildLogo}
     </div>
   );
 };
