@@ -41,6 +41,8 @@
   justify-content: center;
   align-items: center;
   z-index: 4;
+
+  animation: titleName 1s linear 0s infinite;
 }
 
 .logo__glow {
