@@ -44,7 +44,7 @@ const Project_ToolWorld = {
 
 const Project_StudentRecords = {
   title: "StudentRecords",
-  image: "",
+  image: "StudentRecords",
   url: "https://repl.it/@DerekRoot/StudentRecordKeeper",
   git: "https://github.com/dkwroot/StudentRecordKeeper",
   tech: ["C++"],
@@ -53,13 +53,19 @@ const Project_StudentRecords = {
 
 const Project_Tetris = {
   title: "Tetris",
-  image: "",
+  image: "Tetris",
   url: "https://repl.it/@DerekRoot/console-tetris",
   git: "https://github.com/dkwroot/console-tetris/tree/master",
   tech: ["C++", "nCurses"],
   info: "Tetris console game build on OOP principles."
 };
 
-const projectData = [Project_3Raw, Project_ToolWorld, Project_Yakker];
+const projectData = [
+  Project_3Raw,
+  Project_ToolWorld,
+  Project_Yakker,
+  Project_StudentRecords,
+  Project_Tetris
+];
 
 export default projectData;
