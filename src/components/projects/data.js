@@ -42,6 +42,24 @@ const Project_ToolWorld = {
   info: "A merchant webpage for a hardware company built on a restful server."
 };
 
+const Project_StudentRecords = {
+  title: "StudentRecords",
+  image: "",
+  url: "https://repl.it/@DerekRoot/StudentRecordKeeper",
+  git: "https://github.com/dkwroot/StudentRecordKeeper",
+  tech: ["C++"],
+  info: "A student records program built with C++"
+};
+
+const Project_Tetris = {
+  title: "Tetris",
+  image: "",
+  url: "https://repl.it/@DerekRoot/console-tetris",
+  git: "https://github.com/dkwroot/console-tetris/tree/master",
+  tech: ["C++", "nCurses"],
+  info: "Tetris console game build on OOP principles."
+};
+
 const projectData = [Project_3Raw, Project_ToolWorld, Project_Yakker];
 
 export default projectData;

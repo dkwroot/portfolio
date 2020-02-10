@@ -81,3 +81,11 @@ a:visited {
 .proj__ToolWorld {
   background: url("../../resources/toolWorld.jpg");
 }
+
+.proj__Tetris {
+  background: url("../../resources/Tetris.jpg");
+}
+
+.proj__StudentRecords {
+  background: url("../../resources/StudentRecords.jpg");
+}
